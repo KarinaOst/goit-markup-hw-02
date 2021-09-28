@@ -1,9 +1,12 @@
 :root {
   --accent-color: #2196F3;
+  --dark-color: #212121;
+  --white-color: #ffffff;
+  --grey-color: #757575;
 }
 
 body {
-  color:#ffffff;
+  color: var(--white-color);
   font-family: "Roboto", sans-serif;
 }
 
@@ -15,6 +18,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: var(--accent-color);
 }
 
@@ -25,7 +29,8 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #212121;
+  text-decoration: none;
+  color: var(--dark-color);
 }
 
 .nav-link {
@@ -34,7 +39,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
 letter-spacing: 0.02em;
-color: #212121;
+text-decoration: none;
+color: var(--dark-color);
 }
 
 .nav-link:hover,
@@ -48,7 +54,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
 letter-spacing: 0.02em;
-color: #757575;
+text-decoration: none;
+color: var(--grey-color);
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -63,7 +70,7 @@ line-height: 1,36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 }
 
 .btn {
@@ -75,13 +82,14 @@ color: #FFFFFF;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--accent-color);
+  text-decoration: none;
   cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
-color: #ffffff;
+  color: var(--white-color);
 }
 
 .adv-item {
@@ -91,7 +99,8 @@ color: #ffffff;
   line-height: 1,14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  text-decoration: none;
+  color: var(--dark-color);
 }
 
 .adv-text{
@@ -100,7 +109,8 @@ color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  text-decoration: none;
+  color: var(--grey-color);
 }
 
 .title {
@@ -110,7 +120,8 @@ font-size: 36px;
 line-height: 1,17;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+text-decoration: none;
+color: var(--dark-color);
 }
 
 .team-name {
@@ -120,7 +131,8 @@ color: #212121;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  text-decoration: none;
+  color: var(--dark-color);
 } 
 
 .team-pos {
@@ -130,7 +142,8 @@ font-size: 16px;
 line-height: 1,19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+text-decoration: none;
+color: var(--grey-color);
 }
 
 /* =========== FOOTER =========== */
@@ -141,7 +154,8 @@ color: #757575;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  text-decoration: none;
+  color: var(--accent-color);
 }
 .logo-white {
   font-family: Raleway;
@@ -150,7 +164,8 @@ color: #757575;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  text-decoration: none;
+  color: var(--white-color);
 }
 .contact-link {
   font-style: normal;
@@ -158,11 +173,15 @@ color: #757575;
   font-size: 14px;
   line-height: 1,14;
   letter-spacing: 0.02em;
-  color: #757575;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
   }
   .contact-link:hover,
   .contact-link:focus {
   color: var(--accent-color);
+  }
+  .page-footer {
+    background: #2F303A;
   }
 
   .filter-button {
@@ -172,14 +191,15 @@ color: #757575;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--dark-color);
     background: #f5f4fa;
     border-radius: 4px;
+    text-decoration: none;
     cursor: pointer;
   }
   .filter-button:hover,
   .filter-button:focus {
-    color: #ffffff;
+    color: var(--white-color);
     background-color: var(--accent-color);
   }
 
@@ -189,7 +209,8 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
+text-decoration: none;
+color: var(--dark-color);
   }
 .text-port {
 font-style: normal;
@@ -197,5 +218,15 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1,88;
 letter-spacing: 0.03em;
-color: #757575;
+text-decoration: none;
+color: var(--grey-color);
+}
+a {
+  text-decoration: none;
+}
+.current {
+  color: var(--accent-color);
+}
+.city {
+  color: var(--white-color);
 }
