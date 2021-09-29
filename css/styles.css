@@ -37,7 +37,7 @@ body {
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: var(--dark-color);
@@ -52,7 +52,7 @@ color: var(--dark-color);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: var(--grey-color);
@@ -66,7 +66,7 @@ color: var(--accent-color);
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 1,36;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -96,7 +96,7 @@ color: var(--white-color);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -117,7 +117,7 @@ color: var(--white-color);
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 1,17;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 text-decoration: none;
@@ -139,7 +139,7 @@ color: var(--dark-color);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1,19;
+line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 text-decoration: none;
@@ -171,7 +171,7 @@ color: var(--grey-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
@@ -216,17 +216,26 @@ color: var(--dark-color);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1,88;
+line-height: 1.88;
 letter-spacing: 0.03em;
 text-decoration: none;
 color: var(--grey-color);
 }
-a {
+.link {
   text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 .current {
   color: var(--accent-color);
 }
 .city {
   color: var(--white-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
